@@ -13,14 +13,7 @@ public class Ej20 {
     public static void main(String[] args) {
         int[] arr={2, 3, 4, 5, 6};
         int auxiliar=0;
-        /*
-        for (int i = 0; i < arr.length / 2; i++) {//recorro el array hasta la mitad
-            auxiliar = arr[i];//numero de la izquierda lo guardo en un aux
-            arr[i] = arr[arr.length - 1 - i];//por buenas practicas length-1 menos una vuelta de i //tiro el valor a la izquierda
-            arr[arr.length - 1 - i] = auxiliar;
-            
-        }
-*/
+        
         
         for (int i =arr.length-1; i >0; i--) {
             auxiliar=arr[i-1];
